@@ -1,0 +1,175 @@
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway&family=Roboto:wght@300&display=swap');
+  
+  .container{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+    
+}
+  /* Estilo do botão */
+  button[name="drop"]{
+    border-radius: 50px;
+    border-color: transparent;    
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .menu-drop{
+    display: inline-block;
+    position: relative;
+    color: lightgrey;
+  }
+  .drop-content{
+    display: none;
+    background-color: #eeeeee;
+    position: absolute;
+    z-index: 1;
+  }
+  .drop-content a{
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  .drop-content a:hover{
+    background-color: #dddcda;
+  }
+  .menu-drop:hover .drop-content{
+    display: block;
+    background-color: white;
+  }
+  .menu-drop:hover button[name="drop"]{
+    background-color: #f7f5f4
+  }
+
+  .container{
+    display: flex;
+    justify-content:space-between;    
+  }
+  .left{
+    width: 146px;
+    height: 24px;
+    flex-shrink: 0;
+    
+  }
+  .center{
+    width: 404px;
+    height: 40px;
+    flex-shrink: 0;
+    
+  }
+  .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    flex-direction: row ;
+  }
+  #busca{
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #FFF;
+  }
+  #lupa{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    
+  }
+  #avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  
+  .iframe{
+    padding: 20px;
+    margin-left: 0px;
+    display: block;
+    position: absolute;
+    object-fit: cover;
+    width: 952px;
+    height: 537px;   
+  }
+
+  h1{
+    color: #000;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+ 
+
+
+  button[name="button"]{
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #C00;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .videoaction{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #logoDio{
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    cursor: pointer;
+    }
+  #inscritos{
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+  }
+  #up{
+    cursor: pointer;
+  }
+  #down{
+    cursor: pointer;
+  }
+  #share{
+    cursor: pointer;
+  }
+  #downloadimg{
+    cursor: pointer;
+  }
+  aside {
+    margin-top: 20px;
+    float: right;
+    width: 30%; /* Defina a largura desejada para o aside */
+  }
+  @media (max-width: 768px) {
+    .sidebar {
+      float: none;
+      width: 100%; /* Altere a largura para ocupar toda a largura disponível */
+    }
+  }
+
+
